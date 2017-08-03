@@ -1,7 +1,7 @@
 {
-  "name": "snapsvg-cjs",
+  "name": "snapsvg-cjs-elateral",
   "version": "0.0.5",
-  "description": "SnapSVG in CommonJS format, works out-of-the-box with Webpack",
+  "description": "SnapSVG in CommonJS format, works out-of-the-box with Webpack. Forked from Glen Maddern's Original",
   "main": "dist/snap.svg-cjs.js",
   "scripts": {
     "build": "gulp && webpack dist/snap.svg-cjs.js --output-file=dist/snap.svg.js",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geelen/Snap.svg-cjs.git"
+    "url": "git+https://github.com/ElateralLtd/Snap.svg-cjs.git"
   },
   "keywords": [
     "snapsvg",
     "svg",
     "webpack"
   ],
-  "author": "Glen Maddern",
+  "author": "Simon Hurley forking work written by Glen Maddern",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geelen/Snap.svg-cjs/issues"
+    "url": "https://github.com/ElateralLtd/Snap.svg-cjs/issues"
   },
-  "homepage": "https://github.com/geelen/Snap.svg-cjs#readme",
+  "homepage": "https://github.com/ElateralLtd/Snap.svg-cjs#readme",
   "dependencies": {
     "snapsvg": "0.5.1"
   },
